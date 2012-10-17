@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2012-08-02 12:11:42" Modified_Date="2012-08-13 17:52:15" Creator="mraj" Comments="" ID="cf981bc1a7f4936ebda0747af2fa4354">
+<VI_Package_Builder_Settings Version="0.3" Created_Date="2012-08-02 12:11:42" Modified_Date="2012-10-16 21:49:27" Creator="mraj" Comments="" ID="e2316e7d3636bf7bbac3b58d07901275">
   <Library_General_Settings>
     <Package_File_Name>i3_json</Package_File_Name>
-    <Library_Version>0.1.0.3</Library_Version>
+    <Library_Version>0.1.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\i3-json build</Library_Output_Folder>
+    <Library_Output_Folder>..\..\i3-json build</Library_Output_Folder>
     <Company_Name>LabVIEW Hacker</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -31,7 +31,7 @@
       <Copyright/>
       <Packager>Rohama Khadija, Courtney Lessard, Milan Raj</Packager>
       <URL>https://decibel.ni.com/content/groups/interactive-internet-interface-json-toolkit-for-labview</URL>
-      <Release_Notes>First Public release of the JSON API. JSON Generation API is not feature complete (missing polymorphic VIs), but JSON Parsing API is feature complete for initial release.</Release_Notes>
+      <Release_Notes>JSON API with intial implementation of Control Mapping functionality</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
