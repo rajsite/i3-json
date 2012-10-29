@@ -4,16 +4,19 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="JSON Advanced" Type="Folder">
 		<Item Name="JSON Tree to LabVIEW Type Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="JSON Array to LabVIEW Array Base Type.vi" Type="VI" URL="../JSON Advanced/JSON Tree to LabVIEW Type Files/JSON Array to LabVIEW Array Base Type.vi"/>
 			<Item Name="Set Value of LabVIEW Array.vi" Type="VI" URL="../JSON Advanced/JSON Tree to LabVIEW Type Files/Set Value of LabVIEW Array.vi"/>
 			<Item Name="Set Value of LabVIEW Base Type.vi" Type="VI" URL="../JSON Advanced/JSON Tree to LabVIEW Type Files/Set Value of LabVIEW Base Type.vi"/>
 			<Item Name="Set Value of LabVIEW Cluster.vi" Type="VI" URL="../JSON Advanced/JSON Tree to LabVIEW Type Files/Set Value of LabVIEW Cluster.vi"/>
 		</Item>
 		<Item Name="JSON Tree View Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="JSON Tree View Recursive.vi" Type="VI" URL="../JSON Advanced/JSON Tree View Files/JSON Tree View Recursive.vi"/>
 			<Item Name="Tree Nodes.ctl" Type="VI" URL="../JSON Advanced/JSON Tree View Files/Tree Nodes.ctl"/>
 		</Item>
 		<Item Name="LabVIEW Type to JSON Tree Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Get Value of LabVIEW Array.vi" Type="VI" URL="../JSON Advanced/LabVIEW Type to JSON Tree Files/Get Value of LabVIEW Array.vi"/>
 			<Item Name="Get Value of LabVIEW Base Type.vi" Type="VI" URL="../JSON Advanced/LabVIEW Type to JSON Tree Files/Get Value of LabVIEW Base Type.vi"/>
 			<Item Name="Get Value of LabVIEW Cluster.vi" Type="VI" URL="../JSON Advanced/LabVIEW Type to JSON Tree Files/Get Value of LabVIEW Cluster.vi"/>
@@ -26,12 +29,33 @@
 	</Item>
 	<Item Name="JSON Generation" Type="Folder">
 		<Item Name="Add Object Parameter Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Add Object Parameter - 1D Array Boolean.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - 1D Array Boolean.vi"/>
+			<Item Name="Add Object Parameter - 1D Array Double.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - 1D Array Double.vi"/>
+			<Item Name="Add Object Parameter - 1D Array String.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - 1D Array String.vi"/>
+			<Item Name="Add Object Parameter - Array.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - Array.vi"/>
+			<Item Name="Add Object Parameter - Boolean.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - Boolean.vi"/>
 			<Item Name="Add Object Parameter - Known Type.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - Known Type.vi"/>
+			<Item Name="Add Object Parameter - Null.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - Null.vi"/>
+			<Item Name="Add Object Parameter - Numeric.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - Numeric.vi"/>
+			<Item Name="Add Object Parameter - Object.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - Object.vi"/>
+			<Item Name="Add Object Parameter - String.vi" Type="VI" URL="../JSON Generation/Add Object Parameter Files/Add Object Parameter - String.vi"/>
 		</Item>
 		<Item Name="Append to Array Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Append to Array - 1D Array Boolean.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - 1D Array Boolean.vi"/>
+			<Item Name="Append to Array - 1D Array Double.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - 1D Array Double.vi"/>
+			<Item Name="Append to Array - 1D Array String.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - 1D Array String.vi"/>
+			<Item Name="Append to Array - Array.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - Array.vi"/>
+			<Item Name="Append to Array - Boolean.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - Boolean.vi"/>
 			<Item Name="Append to Array - Known Type.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - Known Type.vi"/>
+			<Item Name="Append to Array - Null.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - Null.vi"/>
+			<Item Name="Append to Array - Numeric.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - Numeric.vi"/>
+			<Item Name="Append to Array - Object.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - Object.vi"/>
+			<Item Name="Append to Array - String.vi" Type="VI" URL="../JSON Generation/Append to Array Files/Append to Array - String.vi"/>
 		</Item>
 		<Item Name="Create Value Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Create Value - 1D Array Boolean.vi" Type="VI" URL="../JSON Generation/Create Value Files/Create Value - 1D Array Boolean.vi"/>
 			<Item Name="Create Value - 1D Array Double.vi" Type="VI" URL="../JSON Generation/Create Value Files/Create Value - 1D Array Double.vi"/>
 			<Item Name="Create Value - 1D Array String.vi" Type="VI" URL="../JSON Generation/Create Value Files/Create Value - 1D Array String.vi"/>
@@ -44,17 +68,21 @@
 			<Item Name="Create Value - String.vi" Type="VI" URL="../JSON Generation/Create Value Files/Create Value - String.vi"/>
 		</Item>
 		<Item Name="Encode JSON Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Encode Binary 1D Array Literal.vi" Type="VI" URL="../JSON Generation/Encode JSON Files/Encode Binary 1D Array Literal.vi"/>
 			<Item Name="Encode JSON Recursive.vi" Type="VI" URL="../JSON Generation/Encode JSON Files/Encode JSON Recursive.vi"/>
 			<Item Name="Encode String Escape Characters.vi" Type="VI" URL="../JSON Generation/Encode JSON Files/Encode String Escape Characters.vi"/>
 			<Item Name="Generation Error.ctl" Type="VI" URL="../JSON Generation/Encode JSON Files/Generation Error.ctl"/>
 			<Item Name="JSON Tree Base Type to String.vi" Type="VI" URL="../JSON Generation/Encode JSON Files/JSON Tree Base Type to String.vi"/>
 		</Item>
+		<Item Name="Add Object Parameter.vi" Type="VI" URL="../JSON Generation/Add Object Parameter.vi"/>
+		<Item Name="Append to Array.vi" Type="VI" URL="../JSON Generation/Append to Array.vi"/>
 		<Item Name="Create Value.vi" Type="VI" URL="../JSON Generation/Create Value.vi"/>
 		<Item Name="Encode JSON.vi" Type="VI" URL="../JSON Generation/Encode JSON.vi"/>
 	</Item>
 	<Item Name="JSON Parsing" Type="Folder">
 		<Item Name="Get Array Value at Index Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Get Array Value at Index - 1D Array Boolean.vi" Type="VI" URL="../JSON Parsing/Get Array Value at Index Files/Get Array Value at Index - 1D Array Boolean.vi"/>
 			<Item Name="Get Array Value at Index - 1D Array Double.vi" Type="VI" URL="../JSON Parsing/Get Array Value at Index Files/Get Array Value at Index - 1D Array Double.vi"/>
 			<Item Name="Get Array Value at Index - 1D Array String.vi" Type="VI" URL="../JSON Parsing/Get Array Value at Index Files/Get Array Value at Index - 1D Array String.vi"/>
@@ -68,6 +96,7 @@
 			<Item Name="Get Array Value at Index - String.vi" Type="VI" URL="../JSON Parsing/Get Array Value at Index Files/Get Array Value at Index - String.vi"/>
 		</Item>
 		<Item Name="Get Object Parameter Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="Get Object Parameter - 1D Array Boolean.vi" Type="VI" URL="../JSON Parsing/Get Object Parameter Files/Get Object Parameter - 1D Array Boolean.vi"/>
 			<Item Name="Get Object Parameter - 1D Array Double.vi" Type="VI" URL="../JSON Parsing/Get Object Parameter Files/Get Object Parameter - 1D Array Double.vi"/>
 			<Item Name="Get Object Parameter - 1D Array String.vi" Type="VI" URL="../JSON Parsing/Get Object Parameter Files/Get Object Parameter - 1D Array String.vi"/>
@@ -81,6 +110,7 @@
 			<Item Name="Get Object Parameter - String.vi" Type="VI" URL="../JSON Parsing/Get Object Parameter Files/Get Object Parameter - String.vi"/>
 		</Item>
 		<Item Name="Parse JSON Files" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			<Item Name="EatWhitespace.vi" Type="VI" URL="../JSON Parsing/Parse JSON Files/EatWhitespace.vi"/>
 			<Item Name="LookAhead.vi" Type="VI" URL="../JSON Parsing/Parse JSON Files/LookAhead.vi"/>
 			<Item Name="NextToken.vi" Type="VI" URL="../JSON Parsing/Parse JSON Files/NextToken.vi"/>
@@ -97,9 +127,12 @@
 		<Item Name="Parse JSON.vi" Type="VI" URL="../JSON Parsing/Parse JSON.vi"/>
 	</Item>
 	<Item Name="JSON Types" Type="Folder">
+		<Item Name="Internal" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="JSON Value String.ctl" Type="VI" URL="../JSON Types/JSON Value String.ctl"/>
+			<Item Name="JSON Variant Attribute.ctl" Type="VI" URL="../JSON Types/JSON Variant Attribute.ctl"/>
+		</Item>
 		<Item Name="JSON Compatible Type.ctl" Type="VI" URL="../JSON Types/JSON Compatible Type.ctl"/>
 		<Item Name="JSON Type.ctl" Type="VI" URL="../JSON Types/JSON Type.ctl"/>
-		<Item Name="JSON Value String.ctl" Type="VI" URL="../JSON Types/JSON Value String.ctl"/>
-		<Item Name="JSON Variant Attribute.ctl" Type="VI" URL="../JSON Types/JSON Variant Attribute.ctl"/>
 	</Item>
 </Library>
