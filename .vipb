@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.3" Created_Date="2012-08-02 12:11:42" Modified_Date="2012-10-29 15:34:44" Creator="mraj" Comments="" ID="954d64c7c08d6b023fbca6b4d1d3f902">
+<VI_Package_Builder_Settings Version="0.4" Created_Date="2012-08-02 12:11:42" Modified_Date="2012-12-04 20:38:18" Creator="mraj" Comments="" ID="0fbdc415a2444bc837e4803290472906">
   <Library_General_Settings>
     <Package_File_Name>i3_json</Package_File_Name>
-    <Library_Version>0.2.0.7</Library_Version>
+    <Library_Version>0.2.1.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\i3-json build</Library_Output_Folder>
@@ -29,15 +29,11 @@
       <One_Line_Description_Summary>JSON Toolkit from the Interactive Internet Interface</One_Line_Description_Summary>
       <Description>The JSON api creates the framework needed to parse and generate JSON data in LabVIEW. The toolkit creates a high-level representation of JSON data types that allows for thorough compatibility with the JSON specification.</Description>
       <Copyright/>
-      <Packager>Rohama Khadija, Courtney Lessard, Milan Raj</Packager>
+      <Packager/>
       <URL>https://decibel.ni.com/content/groups/interactive-internet-interface-json-toolkit-for-labview</URL>
-      <Release_Notes>* JSON Generation polymorphic instances completed
+      <Release_Notes>* Added support for Enums and Floating points with Units. Behavior is just to use and save the numeric values of those types.
 
-* [important] With completion of polymorphic instances scope settings have been applied to the lvlib, all code utilizing JSON library should switch to polymorphic instances
-
-* Create Value behavior for JSON Arrays modified to match expected behavior (when creating a new value, if the value passed in is a JSON Array then the JSON Array is returned instead of a new empty array)
-
-* Create Value behavior for JSON Objects modified (see Create Value for JSON Array )</Release_Notes>
+* Fixed bug where JSON arrays containing more than ten items would be created out of order</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -188,6 +184,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Parsing\Parse JSON.vi</Path>
+        <VI_Title>Parse JSON.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -201,6 +198,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Parsing\Get Array Value at Index.vi</Path>
+        <VI_Title>Get Array Value at Index.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -214,6 +212,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Parsing\Get Object Parameter.vi</Path>
+        <VI_Title>Get Object Parameter.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -227,6 +226,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Parsing\JSON Array Size.vi</Path>
+        <VI_Title>JSON Array Size.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -240,6 +240,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Generation\Create Value.vi</Path>
+        <VI_Title>Create Value.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -253,6 +254,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Generation\Append to Array.vi</Path>
+        <VI_Title>Append to Array.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -266,6 +268,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Generation\Add Object Parameter.vi</Path>
+        <VI_Title>Add Object Parameter.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -279,6 +282,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Generation\Encode JSON.vi</Path>
+        <VI_Title>Encode JSON.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -292,6 +296,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Advanced\JSON Tree to LabVIEW Type.vi</Path>
+        <VI_Title>JSON Tree to LabVIEW Type.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -305,6 +310,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Advanced\LabVIEW Type to JSON Tree.vi</Path>
+        <VI_Title>LabVIEW Type to JSON Tree.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -318,6 +324,7 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Advanced\JSON Tree View.vi</Path>
+        <VI_Title>JSON Tree View.vi</VI_Title>
       </Items_Data>
       <Items_Data>
         <Type>Item</Type>
@@ -331,7 +338,9 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>JSON Advanced\Node Type.vi</Path>
+        <VI_Title>Node Type.vi</VI_Title>
       </Items_Data>
+      <GUID>BE90CD02734773347A6E0D02077DEA58</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -355,29 +364,18 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>JSON Compatible Type.ctl</NameSub_Menu_Name>
-        <Short_Name>JSON Compatible Type</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>JSON Types\JSON Compatible Type.ctl</Path>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>JSON Type.ctl</NameSub_Menu_Name>
-        <Short_Name>JSON Type</Short_Name>
+        <NameSub_Menu_Name>BUILT_IN_FUNC_21793_0_1_Tree Control</NameSub_Menu_Name>
+        <Short_Name>Tree (modern)</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>JSON Types\JSON Type.ctl</Path>
+        <Path/>
+        <VI_Title>BUILT_IN_FUNC_21793_0_1_Tree Control</VI_Title>
       </Items_Data>
+      <GUID>6BDF092C61DB5243AB817E27008C7231</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
