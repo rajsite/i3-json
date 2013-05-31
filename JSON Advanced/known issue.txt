@@ -1,1 +1,0 @@
-When parsing JSON data that contains a null value will fail. Maybe add option to have null values return as default type? how would one determine the default type? <-- find default type from input cluster reference lol
