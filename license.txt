@@ -2,6 +2,8 @@ Interactive Internet Interface: JSON Toolkit for LabVIEW (i3 JSON)
 
 Copyright (c) 2013 Milan Raj
 
+The MIT License (MIT)
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -29,6 +31,8 @@ http://techblog.procurios.nl/k/news/view/14605/14863/how-do-i-write-my-own-parse
 and released under the following license:
 
 Copyright (c) 2008 Patrick van Bergen
+
+The MIT License (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
