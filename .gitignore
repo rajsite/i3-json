@@ -1,0 +1,6 @@
+# Metadata
+*.aliases
+*.lvlps
+
+# Package manager directories
+/node_modules

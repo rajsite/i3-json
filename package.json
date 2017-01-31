@@ -1,0 +1,22 @@
+{
+  "name": "i3-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajsite/i3-json.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajsite/i3-json/issues"
+  },
+  "homepage": "https://github.com/rajsite/i3-json#readme",
+  "devDependencies": {
+    "i3-docs": "^1.4.0"
+  }
+}
