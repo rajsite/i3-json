@@ -27,6 +27,7 @@
 			<Item Name="Get Value of LabVIEW Cluster.vi" Type="VI" URL="../JSON Advanced/LabVIEW Type to JSON Tree Files/Get Value of LabVIEW Cluster.vi"/>
 			<Item Name="Size of Variant Array.vi" Type="VI" URL="../JSON Advanced/LabVIEW Type to JSON Tree Files/Size of Variant Array.vi"/>
 		</Item>
+		<Item Name="Control Type.vi" Type="VI" URL="../JSON Advanced/Control Type.vi"/>
 		<Item Name="JSON Tree to LabVIEW Type.vi" Type="VI" URL="../JSON Advanced/JSON Tree to LabVIEW Type.vi"/>
 		<Item Name="JSON Tree View.vi" Type="VI" URL="../JSON Advanced/JSON Tree View.vi"/>
 		<Item Name="LabVIEW Type to JSON Tree.vi" Type="VI" URL="../JSON Advanced/LabVIEW Type to JSON Tree.vi"/>
@@ -140,5 +141,4 @@
 		<Item Name="JSON Compatible Type.ctl" Type="VI" URL="../JSON Types/JSON Compatible Type.ctl"/>
 		<Item Name="JSON Type.ctl" Type="VI" URL="../JSON Types/JSON Type.ctl"/>
 	</Item>
-	<Item Name="Control Type.vi" Type="VI" URL="../JSON Advanced/Control Type.vi"/>
 </Library>
