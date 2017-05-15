@@ -11,7 +11,6 @@
 		<Item Name="Control Type Error.vi" Type="VI" URL="../Error/Control Type Error.vi"/>
 		<Item Name="Create Error.vi" Type="VI" URL="../Error/Create Error.vi"/>
 		<Item Name="Error.vi" Type="VI" URL="../Error/Error.vi"/>
-		<Item Name="Existing Errors.vi" Type="VI" URL="../Error/Existing Errors.vi"/>
 		<Item Name="Invalid Type Error.vi" Type="VI" URL="../Error/Invalid Type Error.vi"/>
 		<Item Name="Not Found Error.vi" Type="VI" URL="../Error/Not Found Error.vi"/>
 		<Item Name="Parse Error.vi" Type="VI" URL="../Error/Parse Error.vi"/>
