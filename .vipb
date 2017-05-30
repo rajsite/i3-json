@@ -1,11 +1,11 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2012-08-02 12:11:42" Modified_Date="2017-05-02 15:11:05" Creator="mraj" Comments="" ID="0249a8d7d4ce972e1b032136e2473f25">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2012-08-02 12:11:42" Modified_Date="2017-05-30 08:34:58" Creator="mraj" Comments="" ID="ca12206b2411351c92bf378d229f2e04">
   <Library_General_Settings>
     <Package_File_Name>i3_json</Package_File_Name>
     <Library_Version>1.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\i3-json build</Library_Output_Folder>
-    <Company_Name>NI Systems Engineering</Company_Name>
+    <Company_Name>National Instruments</Company_Name>
     <Library_Summary/>
     <Library_License>MIT License</Library_License>
     <Package_LabVIEW_Version>15.0</Package_LabVIEW_Version>
@@ -32,7 +32,7 @@
 
 An API interface consisting of a set of low-level and fast VIs are provided for the development of applications as well as a set of high-level and slow VIs to enable rapid prototyping. Utilities for visualizing JSON data in LabVIEW Trees are made available for user interaction.</Description>
       <Copyright>Copyright (c) 2013, National Instruments</Copyright>
-      <Packager/>
+      <Packager>NI Systems Engineering</Packager>
       <URL>https://decibel.ni.com/content/groups/interactive-internet-interface-json-toolkit-for-labview</URL>
       <Release_Notes>Initial LabVIEW Tools Network release of the i3 JSON Toolkit</Release_Notes>
     </Description>
@@ -361,7 +361,7 @@ An API interface consisting of a set of low-level and fast VIs are provided for 
         <Path>JSON Advanced\Node Type.vi</Path>
         <VI_Title>Node Type.vi</VI_Title>
       </Items_Data>
-      <GUID>766F50D74BCEFC7E8BD6B76EA37F2BF8</GUID>
+      <GUID>AE91B0C28DAA1A7510C7FF60C13EB8AF</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -396,7 +396,7 @@ An API interface consisting of a set of low-level and fast VIs are provided for 
         <Path/>
         <VI_Title>BUILT_IN_FUNC_21793_0_1_Tree Control</VI_Title>
       </Items_Data>
-      <GUID>107BDF1AEB703E8C2D94C3ED426FCA81</GUID>
+      <GUID>C913FB1972B885F79B9F4AEFD2308CD0</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
