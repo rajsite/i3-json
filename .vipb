@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2012-08-02 12:11:42" Modified_Date="2017-05-30 08:34:58" Creator="mraj" Comments="" ID="ca12206b2411351c92bf378d229f2e04">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2012-08-02 12:11:42" Modified_Date="2017-05-30 09:42:44" Creator="mraj" Comments="" ID="940594423dd8ed2a8e2fb5ee2431800f">
   <Library_General_Settings>
     <Package_File_Name>i3_json</Package_File_Name>
-    <Library_Version>1.0.0.12</Library_Version>
+    <Library_Version>1.0.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\i3-json build</Library_Output_Folder>
@@ -361,7 +361,7 @@ An API interface consisting of a set of low-level and fast VIs are provided for 
         <Path>JSON Advanced\Node Type.vi</Path>
         <VI_Title>Node Type.vi</VI_Title>
       </Items_Data>
-      <GUID>AE91B0C28DAA1A7510C7FF60C13EB8AF</GUID>
+      <GUID>215507900145C8DB1AE7D1D226D9E408</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -396,7 +396,7 @@ An API interface consisting of a set of low-level and fast VIs are provided for 
         <Path/>
         <VI_Title>BUILT_IN_FUNC_21793_0_1_Tree Control</VI_Title>
       </Items_Data>
-      <GUID>C913FB1972B885F79B9F4AEFD2308CD0</GUID>
+      <GUID>40E16BD7DDC4F7543B623DFA900EBE05</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
