@@ -12,9 +12,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder"/>
 		<Item Name="i3-json.lvlib" Type="Library" URL="../i3-json.lvlib"/>
-		<Item Name="Test VI.vi" Type="VI" URL="../Test VI.vi">
-			<Property Name="marked" Type="Int">0</Property>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi">
