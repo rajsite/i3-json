@@ -1,6 +1,6 @@
 Interactive Internet Interface: JSON Toolkit for LabVIEW (i3 JSON)
 
-Copyright (c) 2013 Milan Raj
+Copyright (c) 2017, Milan Raj and Tanner Blair
 
 The MIT License (MIT)
 
