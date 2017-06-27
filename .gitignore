@@ -4,3 +4,6 @@
 
 # Package manager directories
 /node_modules
+
+# VIPM Build Output
+/builds
