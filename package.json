@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "start /wait cmd /c \"node_modules\\i3-docs\\lv\\Main\\Generate JSON Report.vi\" && i3-docs install && xcopy docs docs_build\\"
   },
   "repository": {
     "type": "git",

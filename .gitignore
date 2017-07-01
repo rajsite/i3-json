@@ -7,3 +7,6 @@
 
 # VIPM Build Output
 /builds
+
+# Docs build output
+/docs_build
