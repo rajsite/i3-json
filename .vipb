@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2012-08-02 12:11:42" Modified_Date="2017-06-26 23:50:27" Creator="mraj" Comments="" ID="efaf8afa679fe839c3e647d9141c7155">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2012-08-02 12:11:42" Modified_Date="2017-07-03 18:29:19" Creator="mraj" Comments="" ID="160182079630baeb4e74cd3ff9990e4c">
   <Library_General_Settings>
     <Package_File_Name>i3_json</Package_File_Name>
     <Library_Version>1.0.0.15</Library_Version>
@@ -127,6 +127,12 @@ An API interface consisting of a set of low-level and fast VIs are provided for 
       </Exclusions>
       <Exclusions>
         <Path>builds</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>docs_build</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>node_modules</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>license.txt</License_Agreement_Filepath>
@@ -381,7 +387,7 @@ An API interface consisting of a set of low-level and fast VIs are provided for 
         <Path>JSON Advanced\Node Type.vi</Path>
         <VI_Title>Node Type.vi</VI_Title>
       </Items_Data>
-      <GUID>7A2F0593B208358CF5E8BB8745D9261E</GUID>
+      <GUID>74D0CE55D4183F5A1BEB91D8FAFACF16</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -416,7 +422,7 @@ An API interface consisting of a set of low-level and fast VIs are provided for 
         <Path/>
         <VI_Title>BUILT_IN_FUNC_21793_0_1_Tree Control</VI_Title>
       </Items_Data>
-      <GUID>2AC42ED2B9BB3F0A3CD3DC04C828D286</GUID>
+      <GUID>DB5B5F8E0761A996A8C10C3A4B62B4C2</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
